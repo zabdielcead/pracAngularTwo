@@ -23,7 +23,7 @@ export class HeroesComponent implements OnInit {
     console.log(this.heroes);
   }
   verHeroe(idx: number) {
-    console.log(idx);
+    console.log(idx, 'elemento padre');
     this._router.navigate(['/heroe', idx]);
   }
 }
